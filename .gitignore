@@ -12,6 +12,19 @@ dist
 dist-ssr
 *.local
 
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Security - sensitive files
+rag/security/secret-scanning/unblock-secret/
+.env.secret
+secret-key*
+api-key*
+*.key
+*.pem
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
